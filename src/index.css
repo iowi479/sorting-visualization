@@ -1,0 +1,122 @@
+body {
+  margin: 0px;
+}
+
+body > #root > div {
+  height: 100vh;
+  width: 100vw;
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(43, 45, 48);
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.UiElement {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.HeadMenu {
+  width: 100vw;
+  background-color: rgb(43, 45, 48);
+  height: auto;
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+
+  top: 0px;
+  bottom: 0px;
+
+  color: white;
+
+  display: inline-flex;
+}
+
+.Button {
+  background-color: rgb(43, 45, 48);
+  padding: 5px;
+  margin-left: 3px;
+  margin-right: 3px;
+  text-align: center;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Button:hover {
+  background-color: rgb(66, 68, 70);
+  color: rgb(176, 178, 180);
+}
+
+.SpeedContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+}
+
+.SpeedContainerItem {
+  flex: 1;
+  font-size: large;
+}
+
+.LabelArraySizeSlider {
+  text-align: center;
+}
+
+.ArraySizeSlider span.MuiSlider-markLabel {
+  color: white;
+}
+
+.Nametag {
+  color: rgb(81, 83, 85);
+  background-color: rgb(43, 45, 48);
+  padding: 5px;
+  margin-left: 3px;
+  margin-right: 3px;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ArrayVisualization {
+  min-width: 800px;
+  min-height: 600px;
+
+  width: 95vw;
+  padding: 1%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: rgb(66, 68, 70);
+  flex: 1;
+
+  display: flex;
+  align-items: flex-end;
+}
+
+.Bar {
+  display: inline-block;
+
+  bottom: 0;
+  vertical-align: bottom;
+  margin-bottom: 0px;
+  margin-top: auto;
+  padding-bottom: 0px;
+}
