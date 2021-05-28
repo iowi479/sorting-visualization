@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sorting-visualization/static/css/main.7596bc12.chunk.css",
-    "main.js": "/sorting-visualization/static/js/main.d78485cc.chunk.js",
-    "main.js.map": "/sorting-visualization/static/js/main.d78485cc.chunk.js.map",
+    "main.js": "/sorting-visualization/static/js/main.ba758ce9.chunk.js",
+    "main.js.map": "/sorting-visualization/static/js/main.ba758ce9.chunk.js.map",
     "runtime-main.js": "/sorting-visualization/static/js/runtime-main.9183d497.js",
     "runtime-main.js.map": "/sorting-visualization/static/js/runtime-main.9183d497.js.map",
     "static/js/2.8f2330cd.chunk.js": "/sorting-visualization/static/js/2.8f2330cd.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.9183d497.js",
     "static/js/2.8f2330cd.chunk.js",
     "static/css/main.7596bc12.chunk.css",
-    "static/js/main.d78485cc.chunk.js"
+    "static/js/main.ba758ce9.chunk.js"
   ]
 }
