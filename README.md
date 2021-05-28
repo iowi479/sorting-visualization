@@ -12,7 +12,7 @@ This is my first react based project.
 :white_check_mark: Bubblesort
 :white_check_mark: Mergesort
 :white_check_mark: Quicksort
-:wrench: Heapsort
+:white_check_mark: Heapsort
 
 ## Author
 
