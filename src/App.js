@@ -6,6 +6,7 @@ import selectionSort from "./algorithms/selectionSort";
 import bubbleSort from "./algorithms/bubbleSort";
 import mergeSort from "./algorithms/mergeSort";
 import quickSort from "./algorithms/quickSort";
+import heapSort from "./algorithms/heapSort";
 
 // Is needed for Async Algorithms
 export let animationDelay;
@@ -91,6 +92,16 @@ const App = () => {
     }
   };
 
+  const onHeapSort = async () => {
+    if (!isRunning) {
+      setIsRunning(true);
+      await setAbortAlgorithm(false);
+      await setColors(new Array(arraySize).fill(0));
+      await heapSort([...array], setArray, [...colors], setColors);
+      setIsRunning(false);
+    }
+  };
+
   return (
     <div className="App">
       <HeadMenu
@@ -101,6 +112,7 @@ const App = () => {
         onBubbleSort={onBubbleSort}
         onMergeSort={onMergeSort}
         onQuickSort={onQuickSort}
+        onHeapSort={onHeapSort}
         onAnimationDelayChange={onAnimationDelayChange}
         onArraySizeChange={onArraySizeChange}
         onStopAnimation={onStopAnimation}

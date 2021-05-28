@@ -12,6 +12,7 @@ const HeadMenu = ({
   onBubbleSort,
   onMergeSort,
   onQuickSort,
+  onHeapSort,
   onAnimationDelayChange,
   onArraySizeChange,
   onStopAnimation,
@@ -94,6 +95,7 @@ const HeadMenu = ({
       <Button size={10} text={"Bubblesort"} onClick={onBubbleSort} />
       <Button size={10} text={"Mergesort"} onClick={onMergeSort} />
       <Button size={10} text={"Quicksort"} onClick={onQuickSort} />
+      <Button size={10} text={"HeapSort"} onClick={onHeapSort} />
 
       <div style={{ width: "10%" }}></div>
 
