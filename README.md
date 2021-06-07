@@ -4,8 +4,6 @@
 
 React-app to visualize the progressing of commonly used sorting algorithms.
 
-This is my first react based project.
-
 ## Available Algorithms
 
 :white_check_mark: Selectionsort
