@@ -11,7 +11,3 @@ React-app to visualize the progressing of commonly used sorting algorithms.
 :white_check_mark: Mergesort
 :white_check_mark: Quicksort
 :white_check_mark: Heapsort
-
-## Author
-
-**Simon S.**
